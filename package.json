@@ -1,7 +1,7 @@
 {
-  "name": "zone.js",
+  "name": "@vor73x/zone.js",
   "version": "0.9.1",
-  "description": "Zones for JavaScript",
+  "description": "Zones for Lightning Web Components",
   "main": "dist/zone-node.js",
   "browser": "dist/zone.js",
   "unpkg": "dist/zone.js",

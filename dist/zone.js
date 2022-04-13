@@ -2193,7 +2193,9 @@
                         }
                     }
                     else if (prototype[callback]) {
+                      if(callback !== "attributeChangedCallback") {
                         prototype[callback] = api.wrapWithCurrentZone(prototype[callback], source);
+                      }
                     }
                 });
             }
